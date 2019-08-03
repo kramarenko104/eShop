@@ -1,0 +1,238 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+
+.body {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	letter-spacing: -2px;
+	font-size: 2.0em;
+	color: #FFFFFF;
+}
+
+h3 {
+	font-size: 1.6em;
+	color: #FFFFFF;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 200%;
+}
+
+a {
+	color: #C0B8FF;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+	text-align: center;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#header {
+    width: 900px;
+    padding: 5px 5px;
+}
+
+#logo {
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 5px 0px 0px 0px;
+
+}
+
+#logo h1 {
+	padding:5px 0px 0px 0px;
+	letter-spacing: -2px;
+	font-size: 3.8em;
+    color: #f59506;
+}
+
+#menu {
+	float: right;
+	width: 700px;
+	height: 20px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 20px;
+	margin: 0px;
+	padding: 0px 15px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color:  #f59506;
+	border: none;
+}
+
+#sidebar {
+	float: left;
+	width: 120px;
+	height: 1000px;
+	margin: 0 50px 0 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+#table {
+	padding: 2px 2px 2px 2px;
+}
+
+#footer {
+	overflow: hidden;
+	width: 940px;
+	height: 100px;
+	margin: 0px auto;
+	color: #414141;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+#content {
+	width: 1000px;
+	height: 1010px;
+	text-align: center;
+}
+.productsTable {
+    width: 230px;
+    height: 385px;
+    FLOAT: LEFT;
+}
+
+.productDescription{
+	text-align: center;
+	padding: 0px 0px 2px 5px;
+}
+
+
+#price {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	color:  #f59506;
+    padding: 2px;
+}
+
+.productName {
+	height: 38px;
+	font-size: 14px;
+    text-align: center;
+	padding: 1px;
+}
+
+#cart{
+	text-align: center;
+    font-size: 110%;
+	margin: 0 0 0 40%;
+    padding: 1px;
+}
+
+#tableTitle{
+	color:  #f59506;
+}
+
+#errorMsgText {
+    font-size: 120%;
+	  color: #f50508;
+}
+
+#RegMsg{
+    color: #f50508;
+    font-size: 130%;
+    text-align: center;
+}
+
+#autoriz {
+    color: #63ce29;
+    width: 940px;
+    margin: 1%;
+    font-size: 130%;
+    text-align: right;
+    padding: 5px 5px 5px 5px;
+
+}
+
+#myTableFormatting{
+	text-align: left;
+	font-size: 100%;
+}
+
+#infoGreen{
+    color: #26cc31;
+    font-size: 130%;
+    text-align: center;
+    align-content: center;
+}
+
+#info{
+    color:  #f59506;
+    font-size: 130%;
+    text-align: center;
+    align-content: center;
+}
+
+#myButtonsFormatting {
+	font-size: 140%;
+    align-content: center;
+	style: "shape-rendering: crispEdges";
+    text-align: center;
+    padding: 1%;
+}
